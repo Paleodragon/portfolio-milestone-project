@@ -1,3 +1,14 @@
+/***Main styles****/
+html, body{
+  margin: 0;
+  width: 1200px;
+  height: auto;
+}
+div .full-width{
+  float: left;
+  clear: both;
+}
+
 /****Header styles****/
 header{
   background: url("../img/hero-background.png");
@@ -5,22 +16,56 @@ header{
   color: #fff;
 }
 /****portfolio styles****/
-section#portfolio {
+section #portfolio {
   background: pink;
 }
+section #portfolio .full-width{
+    /*border-bottom: 2px solid gray;*/
+}
+section#portfolio .half-width{
+  width: 45%;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 18px;
+
+}
 section#portfolio img{
-  height: 300px;
+  height: 280px;
   width: auto;
 }
 section#portfolio p{
-  width: 500px;
+  width: 50%;
+  height: 280px;
+  padding-top: 35px;
+}
+#portfolio .left{
+  float: left;
+  clear: both;
+}
+#portfolio .right{
+  margin-left: 25px;
+  padding-left: 40px;
 }
 
 /****About styles****/
-section#about{
+
+section#about .full-width{
   background: url("../img/about-me.png");
+  float: left;
+  clear: both;
 }
 /****Footer styles****/
-footer{
+footer#contact.full-width{
   background: green;
+  float: left;
+  clear: both;
 }
+div.third-width{
+  width: 380px;
+  float: left;
+  clear: both;
+  }
+footer#contact.full-width.copy {
+  float: left;
+  clear: both;
+  }
