@@ -1,0 +1,26 @@
+/****Header styles****/
+header{
+  background: url("../img/hero-background.png");
+  background-size: cover;
+  color: #fff;
+}
+/****portfolio styles****/
+section#portfolio {
+  background: pink;
+}
+section#portfolio img{
+  height: 300px;
+  width: auto;
+}
+section#portfolio p{
+  width: 500px;
+}
+
+/****About styles****/
+section#about{
+  background: url("../img/about-me.png");
+}
+/****Footer styles****/
+footer{
+  background: green;
+}
