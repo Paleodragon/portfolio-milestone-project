@@ -1,8 +1,25 @@
 /***Main styles****/
 html, body{
-  margin: 0;
+  margin: 0, 0;
   width: 1200px;
   height: auto;
+  background: #1F202B;
+}
+h2{
+  color: #F70074;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+p{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
 }
 div .full-width{
   float: left;
@@ -11,16 +28,55 @@ div .full-width{
 
 /****Header styles****/
 header{
-  background: url("../img/hero-background.png");
-  background-size: cover;
   color: #fff;
 }
-/****portfolio styles****/
-section #portfolio {
-  background: pink;
+
+header h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  padding-top: 15px;
 }
+
+header div.full-width{
+  height: 40px;
+}
+header div.half-width{
+  float: left;
+  width: 50%;
+}
+nav ul{
+  padding-left: 200px;
+}
+nav ul li{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+/****Intro styles****/
+section#intro{
+  background: url("../img/hero-background.png");
+  background-size: cover;
+  margin: 0;
+  padding-bottom: 280px;
+}
+section#intro h3{
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  padding-left: 24px;
+  padding-top: 300px;
+}
+span{
+  color: #F70074;
+}
+
+/****portfolio styles****/
 section #portfolio .full-width{
     /*border-bottom: 2px solid gray;*/
+
 }
 section#portfolio .half-width{
   width: 45%;
@@ -51,12 +107,22 @@ section#portfolio p{
 
 section#about .full-width{
   background: url("../img/about-me.png");
+  background-size: cover;
   float: left;
   clear: both;
 }
+#about h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 400px;
+}
+#about p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
 /****Footer styles****/
 footer#contact.full-width{
-  background: green;
   float: left;
   clear: both;
 }
