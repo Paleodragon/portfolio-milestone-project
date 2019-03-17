@@ -1,7 +1,7 @@
 /***Main styles****/
 html, body{
   margin: 0, 0;
-  width: 1200px;
+  width: 1400px;
   height: auto;
   background: #1F202B;
 }
@@ -15,6 +15,7 @@ h2{
 p{
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  font-size: 24px;
 }
 
 a{
@@ -24,6 +25,7 @@ a{
 div .full-width{
   float: left;
   clear: both;
+  padding-bottom: 36px;
 }
 
 /****Header styles****/
@@ -66,7 +68,7 @@ section#intro h3{
   color: #fff;
   font-family: 'Oswald', sans-serif;
   font-size: 72px;
-  padding-left: 24px;
+  padding-left: 100px;
   padding-top: 300px;
 }
 span{
@@ -74,25 +76,29 @@ span{
 }
 
 /****portfolio styles****/
-section #portfolio .full-width{
-    /*border-bottom: 2px solid gray;*/
-
+section#portfolio{
+  margin-left: 100px;
+  margin-bottom: 70px;
 }
 section#portfolio .half-width{
   width: 45%;
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 18px;
-
+  /*margin-top: 46px;*/
+}
+section#portfolio h2{
+  padding-bottom:46px;
 }
 section#portfolio img{
   height: 280px;
   width: auto;
+  padding-top: 10px;
 }
-section#portfolio p{
-  width: 50%;
+
+section#portfolio div.project-info{
+  width: 45%;
   height: 280px;
-  padding-top: 35px;
 }
 #portfolio .left{
   float: left;
@@ -111,15 +117,19 @@ section#about .full-width{
   float: left;
   clear: both;
 }
-#about h3{
+section#about div.about-info{
   font-family: 'Roboto', sans-serif;
+  margin-left: 100px;
+  padding-top: 26px;
+  padding-bottom: 60px;
   font-size: 24px;
+  width: 45%;
+}
+#about h3{
   font-weight: 700;
-  padding-right: 400px;
 }
 #about p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  color: #000;
 }
 /****Footer styles****/
 footer#contact.full-width{
