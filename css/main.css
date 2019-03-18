@@ -1,10 +1,11 @@
 /***Main styles****/
 html, body{
+  background: #1F202B;
+  height: auto;
   margin: 0, 0;
   width: 1400px;
-  height: auto;
-  background: #1F202B;
 }
+
 h2{
   color: #F70074;
   font-family: 'Oswald', sans-serif;
@@ -23,11 +24,23 @@ a{
   color: #fff;
   text-decoration: none;
 }
+
 div .full-width{
   float: left;
   clear: both;
   padding-bottom: 36px;
 }
+
+div .half-width{
+  float: left;
+  width: 50%;
+}
+
+div .third-width{
+  width: 400px;;
+  float: left;
+}
+
 
 /****Header styles****/
 header{
@@ -44,13 +57,16 @@ header h1{
 header div.full-width{
   height: 40px;
 }
+
 header div.half-width{
   float: left;
   width: 50%;
 }
+
 nav ul{
   padding-left: 300px;
 }
+
 nav ul li{
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -59,6 +75,7 @@ nav ul li{
   padding-top: 15px;
 }
 
+
 /****Intro styles****/
 section#intro{
   background: url("../img/hero-background.png");
@@ -66,6 +83,7 @@ section#intro{
   margin: 0;
   padding-bottom: 280px;
 }
+
 section#intro h3{
   color: #fff;
   font-family: 'Oswald', sans-serif;
@@ -73,25 +91,30 @@ section#intro h3{
   padding-left: 100px;
   padding-top: 300px;
 }
+
 span{
   color: #F70074;
 }
 
+
 /****portfolio styles****/
 section#portfolio{
+  height: 1500px;
   margin-left: 100px;
   margin-bottom: 70px;
 }
+
 section#portfolio .half-width{
   width: 45%;
   float: left;
   margin-bottom: 30px;
   margin-left: 18px;
-  /*margin-top: 46px;*/
 }
+
 section#portfolio h2{
   padding-bottom:46px;
 }
+
 section#portfolio img{
   height: 280px;
   width: auto;
@@ -102,16 +125,21 @@ section#portfolio div.project-info{
   width: 45%;
   height: 280px;
 }
+
 #portfolio .left{
   float: left;
   clear: both;
 }
+
 #portfolio .right{
   margin-left: 25px;
   padding-left: 40px;
 }
 
 /****About styles****/
+section#about{
+  height: 600px;
+}
 
 section#about .full-width{
   background: url("../img/about-me.png");
@@ -119,47 +147,61 @@ section#about .full-width{
   float: left;
   clear: both;
 }
+
 section#about div.about-info{
   font-family: 'Roboto', sans-serif;
+  font-size: 24px;
   margin-left: 100px;
   padding-top: 26px;
   padding-bottom: 60px;
-  font-size: 24px;
   width: 45%;
 }
+
 #about h3{
   font-weight: 700;
 }
+
 #about p{
   color: #000;
 }
+
+
 /****Footer styles****/
+footer#contact{
+  height: 500px;
+}
+
 footer#contact div.full-width{
   width: 100%;
   float: left;
   clear: both;
 }
+
 footer#contact div.full-width.social-info{
   width: 100%;
   margin-left: 100px;
 }
+
 footer#contact div.third-width{
   width: 400px;;
   float: left;
   padding-right: 10px;
 }
+
 footer#contact ul li{
   display: inline-block;
   padding-right: 15px;
   padding-left: 15px;
 }
+
 i.pe-so-twitter, i.pe-so-github, i.pe-so-linkedin, i.pe-so-codepen{
   color: #F70074;
 }
+
 footer#contact p{
   text-align: center;
 }
+
 footer#contact div.full-width.copy {
   float: left;
-  /*clear: both;*/
 }
