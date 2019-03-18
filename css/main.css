@@ -10,6 +10,7 @@ h2{
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
   text-align: center;
+  text-transform: lowercase;
 }
 
 p{
@@ -37,6 +38,7 @@ header h1{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   padding-top: 15px;
+  padding-left: 40px;
 }
 
 header div.full-width{
@@ -47,7 +49,7 @@ header div.half-width{
   width: 50%;
 }
 nav ul{
-  padding-left: 200px;
+  padding-left: 300px;
 }
 nav ul li{
   display: inline-block;
@@ -132,16 +134,32 @@ section#about div.about-info{
   color: #000;
 }
 /****Footer styles****/
-footer#contact.full-width{
+footer#contact div.full-width{
+  width: 100%;
   float: left;
   clear: both;
 }
-div.third-width{
-  width: 380px;
+footer#contact div.full-width.social-info{
+  width: 100%;
+  margin-left: 100px;
+}
+footer#contact div.third-width{
+  width: 400px;;
   float: left;
-  clear: both;
-  }
-footer#contact.full-width.copy {
+  padding-right: 10px;
+}
+footer#contact ul li{
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+i.pe-so-twitter, i.pe-so-github, i.pe-so-linkedin, i.pe-so-codepen{
+  color: #F70074;
+}
+footer#contact p{
+  text-align: center;
+}
+footer#contact div.full-width.copy {
   float: left;
-  clear: both;
-  }
+  /*clear: both;*/
+}
